@@ -10,7 +10,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 # 配置信息
-BOT_TOKEN = "8ce37d64bfe2407596fe95b7f80b8242"
+BOT_TOKEN = "xxx"
 API_BASE_URL = "https://chat-go.jwzhd.com/open-apis/v1/bot"
 SEND_API_URL = f"{API_BASE_URL}/send?token={BOT_TOKEN}"
 STREAM_API_URL = f"{API_BASE_URL}/send-stream?token={BOT_TOKEN}"
